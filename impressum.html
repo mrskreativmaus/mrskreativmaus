@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum | mrskreativmaus</title>
+    <style>
+        :root {
+            --bg-color: #faf8f5;
+            --card-bg: #ffffff;
+            --text-main: #2b2b2b;
+            --text-muted: #6e6e6e;
+            --accent-color: #cc7867;
+            --accent-hover: #b86555;
+            --border-color: #e8e2dc;
+            --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 16px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px 24px;
+            box-shadow: var(--shadow-subtle);
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        p, address {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-muted);
+            font-style: normal;
+            margin-bottom: 12px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 24px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+
+        .back-link:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Impressum</h1>
+
+        <h2>Angaben gemäß § 5 DDG</h2>
+        <address>
+            <strong>Anne Schmitt</strong><br>
+            Rothe Gasse 48<br>
+            52224 Stolberg
+        </address>
+
+        <h2>Kontakt</h2>
+        <p>
+            Telefon: 015678-550562<br>
+            E-Mail: kontakt@mrskreativmaus.de
+        </p>
+
+        <h2>Umsatzsteuer-ID</h2>
+        <p>
+            Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
+            <strong>DE338393611</strong><br>
+            (Kleinunternehmerin gemäß § 19 UStG, daher keine Ausweisung der Umsatzsteuer.)
+        </p>
+
+        <h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
+        <p>
+            Wir nehmen an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle nicht teil.
+        </p>
+
+        <div class="center">
+            <a href="index.html" class="back-link">&larr; Zurück zur Startseite</a>
+        </div>
+    </main>
+
+</body>
+</html>
